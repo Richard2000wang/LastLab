@@ -1,12 +1,18 @@
 * {
     padding: 0px;
     margin: 0px;
+}
+
+body {
+    background-color: #C0C0C0;
     font-family: 'Roboto Slab', serif;
+    display: grid;
     grid-template-areas:
     "H H H"
     "B B B"
-    "F F F"
+    "F F F";
 }
+
 
 h1 {
     grid-area: H;
